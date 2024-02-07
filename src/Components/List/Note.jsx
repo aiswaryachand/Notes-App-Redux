@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector,useDispatch } from 'react-redux';
 import {useNavigate} from 'react-router-dom';
 import { deleteNote } from '../../Redux/noteSlice';
-import TimeAgo from './Timeago';
+import TimeAgo from './TimeAgo';
 
 
 function Note() {
